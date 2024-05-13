@@ -9,6 +9,7 @@ namespace MyOrange
 	
 	/// <summary>
 	/// 一个图片处理类
+	/// 2024.05.12 测试这个类
 	/// </summary>		
 	public class ImageClass
 	{
