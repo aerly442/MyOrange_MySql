@@ -123,6 +123,12 @@ namespace MyOrange
             }
 
         }
+        /// <summary>
+        /// 获取SQL查询参数
+        /// </summary>
+        /// <param name="fieldname">字段名称</param>
+        /// <param name="fieldvalue">字段值</param>
+        /// <returns></returns>
         private MySqlParameter getSqlParameter(string fieldname, string fieldvalue)
         {
             if (fieldvalue.Length >= TextLength)
